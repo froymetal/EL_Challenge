@@ -50,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="colorSegmentControl" destination="a2h-hh-6rv" id="y4l-2X-VUo"/>
+                        <outlet property="userImage" destination="qQ8-Wk-b3k" id="xgb-66-4LF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
