@@ -42,6 +42,29 @@
                                     <segue destination="IeR-J3-Anv" kind="show" id="iof-J7-jk8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GB-EZ-k4G">
+                                <rect key="frame" x="68" y="346.5" width="278" height="32.5"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Challenge 2">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aN1-qE-KHg" kind="show" id="AuP-0a-jnH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -49,9 +72,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oRn-C6-ttu" secondAttribute="trailing" constant="68" id="6tF-o5-kxQ"/>
                             <constraint firstItem="jER-yi-8cE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="7mX-dv-ybb"/>
                             <constraint firstItem="oRn-C6-ttu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="G7h-ZA-RqE"/>
+                            <constraint firstItem="5GB-EZ-k4G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="SOn-hA-3ha"/>
                             <constraint firstItem="jER-yi-8cE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cFC-7a-gYX"/>
                             <constraint firstItem="oRn-C6-ttu" firstAttribute="top" secondItem="jER-yi-8cE" secondAttribute="bottom" constant="40" id="rRP-ae-Wma"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5GB-EZ-k4G" secondAttribute="trailing" constant="68" id="tun-cI-SmW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jER-yi-8cE" secondAttribute="trailing" constant="68" id="wHV-70-Dgx"/>
+                            <constraint firstItem="5GB-EZ-k4G" firstAttribute="top" secondItem="oRn-C6-ttu" secondAttribute="bottom" constant="18" id="ztH-nz-1gm"/>
                         </constraints>
                     </view>
                     <connections>
@@ -71,6 +97,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VSV-r3-gD3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="551" y="-149"/>
+        </scene>
+        <!--challenge2-->
+        <scene sceneID="sJM-sA-ZWc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Challenge2" referencedIdentifier="challenge2" id="aN1-qE-KHg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AzW-cS-stq"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hz-3e-nFi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="-27"/>
         </scene>
     </scenes>
     <resources>

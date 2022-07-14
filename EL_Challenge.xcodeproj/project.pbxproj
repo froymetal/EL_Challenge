@@ -15,6 +15,8 @@
 		3A91738D288041BF00CD5EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91738B288041BF00CD5EE9 /* LaunchScreen.storyboard */; };
 		3A91739628804AC500CD5EE9 /* challenge1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91739528804AC500CD5EE9 /* challenge1.storyboard */; };
 		3A91739828804AF300CD5EE9 /* Challenge1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */; };
+		3A91739C2880587A00CD5EE9 /* Challenge2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91739B2880587A00CD5EE9 /* Challenge2.storyboard */; };
+		3A91739E2880589800CD5EE9 /* Challenge2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3A91738E288041BF00CD5EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A91739528804AC500CD5EE9 /* challenge1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = challenge1.storyboard; sourceTree = "<group>"; };
 		3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1ViewController.swift; sourceTree = "<group>"; };
+		3A91739B2880587A00CD5EE9 /* Challenge2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenge2.storyboard; sourceTree = "<group>"; };
+		3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 		3A91737F288041B800CD5EE9 /* EL_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				3A91739A2880585200CD5EE9 /* Challenge2 */,
+				3A91739428804A8E00CD5EE9 /* Main */,
+				3A917399288057F000CD5EE9 /* Challenge1 */,
 				3A917380288041B800CD5EE9 /* AppDelegate.swift */,
 				3A917382288041B800CD5EE9 /* SceneDelegate.swift */,
-				3A91739428804A8E00CD5EE9 /* View */,
 				3A917389288041BF00CD5EE9 /* Assets.xcassets */,
 				3A91738B288041BF00CD5EE9 /* LaunchScreen.storyboard */,
 				3A91738E288041BF00CD5EE9 /* Info.plist */,
@@ -70,15 +76,31 @@
 			path = EL_Challenge;
 			sourceTree = "<group>";
 		};
-		3A91739428804A8E00CD5EE9 /* View */ = {
+		3A91739428804A8E00CD5EE9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				3A917386288041B800CD5EE9 /* Main.storyboard */,
 				3A917384288041B800CD5EE9 /* ViewController.swift */,
-				3A91739528804AC500CD5EE9 /* challenge1.storyboard */,
-				3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */,
 			);
-			path = View;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A917399288057F000CD5EE9 /* Challenge1 */ = {
+			isa = PBXGroup;
+			children = (
+				3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */,
+				3A91739528804AC500CD5EE9 /* challenge1.storyboard */,
+			);
+			path = Challenge1;
+			sourceTree = "<group>";
+		};
+		3A91739A2880585200CD5EE9 /* Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A91739B2880587A00CD5EE9 /* Challenge2.storyboard */,
+				3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */,
+			);
+			path = Challenge2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A91739628804AC500CD5EE9 /* challenge1.storyboard in Resources */,
+				3A91739C2880587A00CD5EE9 /* Challenge2.storyboard in Resources */,
 				3A91738D288041BF00CD5EE9 /* LaunchScreen.storyboard in Resources */,
 				3A91738A288041BF00CD5EE9 /* Assets.xcassets in Resources */,
 				3A917388288041B800CD5EE9 /* Main.storyboard in Resources */,
@@ -155,6 +178,7 @@
 			files = (
 				3A91739828804AF300CD5EE9 /* Challenge1ViewController.swift in Sources */,
 				3A917385288041B800CD5EE9 /* ViewController.swift in Sources */,
+				3A91739E2880589800CD5EE9 /* Challenge2ViewController.swift in Sources */,
 				3A917381288041B800CD5EE9 /* AppDelegate.swift in Sources */,
 				3A917383288041B800CD5EE9 /* SceneDelegate.swift in Sources */,
 			);
@@ -308,6 +332,7 @@
 				DEVELOPMENT_TEAM = TFGQTYMVM3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EL_Challenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "E & L ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,6 +361,7 @@
 				DEVELOPMENT_TEAM = TFGQTYMVM3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EL_Challenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "E & L ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
