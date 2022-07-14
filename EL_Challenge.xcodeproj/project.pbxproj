@@ -22,6 +22,7 @@
 		3A9173A8288093EF00CD5EE9 /* Challenge5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9173A7288093EE00CD5EE9 /* Challenge5.storyboard */; };
 		3A9173AA2880940300CD5EE9 /* Challenge5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9173A92880940300CD5EE9 /* Challenge5ViewController.swift */; };
 		3A9173AC288097FC00CD5EE9 /* Challenge5UIKITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9173AB288097FB00CD5EE9 /* Challenge5UIKITViewController.swift */; };
+		3A9173AE2880D16600CD5EE9 /* Challenge5SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9173AD2880D16500CD5EE9 /* Challenge5SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		3A9173A7288093EE00CD5EE9 /* Challenge5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenge5.storyboard; sourceTree = "<group>"; };
 		3A9173A92880940300CD5EE9 /* Challenge5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge5ViewController.swift; sourceTree = "<group>"; };
 		3A9173AB288097FB00CD5EE9 /* Challenge5UIKITViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge5UIKITViewController.swift; sourceTree = "<group>"; };
+		3A9173AD2880D16500CD5EE9 /* Challenge5SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge5SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				3A9173A7288093EE00CD5EE9 /* Challenge5.storyboard */,
 				3A9173A92880940300CD5EE9 /* Challenge5ViewController.swift */,
 				3A9173AB288097FB00CD5EE9 /* Challenge5UIKITViewController.swift */,
+				3A9173AD2880D16500CD5EE9 /* Challenge5SwiftUIView.swift */,
 			);
 			path = Challenge5;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				3A91739828804AF300CD5EE9 /* Challenge1ViewController.swift in Sources */,
 				3A917385288041B800CD5EE9 /* ViewController.swift in Sources */,
 				3A9173A3288064F500CD5EE9 /* Challenge3ViewController.swift in Sources */,
+				3A9173AE2880D16600CD5EE9 /* Challenge5SwiftUIView.swift in Sources */,
 				3A9173AC288097FC00CD5EE9 /* Challenge5UIKITViewController.swift in Sources */,
 				3A9173AA2880940300CD5EE9 /* Challenge5ViewController.swift in Sources */,
 				3A91739E2880589800CD5EE9 /* Challenge2ViewController.swift in Sources */,
