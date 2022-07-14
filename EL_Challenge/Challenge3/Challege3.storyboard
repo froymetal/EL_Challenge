@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Challenge3 View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="challenge3" id="Y6W-OH-hqX" customClass="Challenge3ViewController" customModule="EL_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="na8-sE-efB">
+                                <rect key="frame" x="45" y="120" width="324" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRo-4Y-nHZ">
+                                <rect key="frame" x="45" y="84" width="324" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Write a text below">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yH9-Zs-VjD">
+                                <rect key="frame" x="80" y="204" width="254" height="35"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Delete Spaces">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteSpaces:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="snt-r7-UsN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Without Spaces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ec3-gn-fNU">
+                                <rect key="frame" x="123.5" y="279" width="167.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvE-Hu-pyL">
+                                <rect key="frame" x="45" y="315" width="324" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yH9-Zs-VjD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="80" id="Aba-Q8-PwQ"/>
+                            <constraint firstItem="yH9-Zs-VjD" firstAttribute="top" secondItem="na8-sE-efB" secondAttribute="bottom" constant="50" id="DPT-Sm-eWu"/>
+                            <constraint firstItem="gRo-4Y-nHZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="45" id="FSW-w9-OMY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gRo-4Y-nHZ" secondAttribute="trailing" constant="45" id="H5u-SL-KNb"/>
+                            <constraint firstItem="Ec3-gn-fNU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="MeY-Ow-gTR"/>
+                            <constraint firstItem="Ec3-gn-fNU" firstAttribute="top" secondItem="yH9-Zs-VjD" secondAttribute="bottom" constant="40" id="O90-T6-Su8"/>
+                            <constraint firstItem="na8-sE-efB" firstAttribute="top" secondItem="gRo-4Y-nHZ" secondAttribute="bottom" constant="15" id="R5M-d3-wm9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yH9-Zs-VjD" secondAttribute="trailing" constant="80" id="Sqc-Z5-AXM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BvE-Hu-pyL" secondAttribute="trailing" constant="45" id="a2r-wY-vxu"/>
+                            <constraint firstItem="BvE-Hu-pyL" firstAttribute="top" secondItem="Ec3-gn-fNU" secondAttribute="bottom" constant="15" id="g18-JT-p2g"/>
+                            <constraint firstItem="gRo-4Y-nHZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="hNl-Fu-SWM"/>
+                            <constraint firstItem="BvE-Hu-pyL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="45" id="kNa-M2-J5U"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="na8-sE-efB" secondAttribute="trailing" constant="45" id="lrA-Is-4ov"/>
+                            <constraint firstItem="na8-sE-efB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="45" id="ozA-ac-HoZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inTextField" destination="na8-sE-efB" id="mwi-vx-vcU"/>
+                        <outlet property="outLabel" destination="BvE-Hu-pyL" id="2Fy-d9-tjS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

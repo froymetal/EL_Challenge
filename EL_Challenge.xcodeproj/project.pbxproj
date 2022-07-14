@@ -17,6 +17,8 @@
 		3A91739828804AF300CD5EE9 /* Challenge1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */; };
 		3A91739C2880587A00CD5EE9 /* Challenge2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91739B2880587A00CD5EE9 /* Challenge2.storyboard */; };
 		3A91739E2880589800CD5EE9 /* Challenge2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */; };
+		3A9173A1288064D000CD5EE9 /* Challege3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9173A0288064D000CD5EE9 /* Challege3.storyboard */; };
+		3A9173A3288064F500CD5EE9 /* Challenge3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9173A2288064F500CD5EE9 /* Challenge3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		3A91739728804AF300CD5EE9 /* Challenge1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1ViewController.swift; sourceTree = "<group>"; };
 		3A91739B2880587A00CD5EE9 /* Challenge2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenge2.storyboard; sourceTree = "<group>"; };
 		3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2ViewController.swift; sourceTree = "<group>"; };
+		3A9173A0288064D000CD5EE9 /* Challege3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challege3.storyboard; sourceTree = "<group>"; };
+		3A9173A2288064F500CD5EE9 /* Challenge3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +68,10 @@
 		3A91737F288041B800CD5EE9 /* EL_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				3A91739F288064B400CD5EE9 /* Challenge3 */,
+				3A917399288057F000CD5EE9 /* Challenge1 */,
 				3A91739A2880585200CD5EE9 /* Challenge2 */,
 				3A91739428804A8E00CD5EE9 /* Main */,
-				3A917399288057F000CD5EE9 /* Challenge1 */,
 				3A917380288041B800CD5EE9 /* AppDelegate.swift */,
 				3A917382288041B800CD5EE9 /* SceneDelegate.swift */,
 				3A917389288041BF00CD5EE9 /* Assets.xcassets */,
@@ -101,6 +106,15 @@
 				3A91739D2880589800CD5EE9 /* Challenge2ViewController.swift */,
 			);
 			path = Challenge2;
+			sourceTree = "<group>";
+		};
+		3A91739F288064B400CD5EE9 /* Challenge3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A9173A0288064D000CD5EE9 /* Challege3.storyboard */,
+				3A9173A2288064F500CD5EE9 /* Challenge3ViewController.swift */,
+			);
+			path = Challenge3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,7 @@
 				3A91738D288041BF00CD5EE9 /* LaunchScreen.storyboard in Resources */,
 				3A91738A288041BF00CD5EE9 /* Assets.xcassets in Resources */,
 				3A917388288041B800CD5EE9 /* Main.storyboard in Resources */,
+				3A9173A1288064D000CD5EE9 /* Challege3.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,7 @@
 			files = (
 				3A91739828804AF300CD5EE9 /* Challenge1ViewController.swift in Sources */,
 				3A917385288041B800CD5EE9 /* ViewController.swift in Sources */,
+				3A9173A3288064F500CD5EE9 /* Challenge3ViewController.swift in Sources */,
 				3A91739E2880589800CD5EE9 /* Challenge2ViewController.swift in Sources */,
 				3A917381288041B800CD5EE9 /* AppDelegate.swift in Sources */,
 				3A917383288041B800CD5EE9 /* SceneDelegate.swift in Sources */,
