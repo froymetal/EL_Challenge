@@ -15,10 +15,5 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-//        challenge1Button.layer.cornerRadius(10.0)
-    }
-
-
 }
 
