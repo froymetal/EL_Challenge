@@ -15,13 +15,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func challenge4Message(_ sender: Any) {
-        showMessage(challenge: "Challenge 4")
+        let message = """
+How to return an array string as an array of uppercase string. \n\n
+print(["alpha","beta","gamma"].map({ $0.uppercased()}))
+"""
+        showMessage(challenge: "Challenge 4", message: message)
     }
 
-    func showMessage(challenge: String) {
+    func showMessage(challenge: String, message: String) {
         let alert = UIAlertController(
             title: challenge,
-            message: "Please check the playgroung in the code for this Exercise.",
+            message: message,
             preferredStyle: .alert)
         let btn = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(btn)
@@ -34,6 +38,12 @@ class ViewController: UIViewController {
         let navVC = UINavigationController(rootViewController: rootVC)
         navVC.modalPresentationStyle = .fullScreen
         present(navVC, animated: true)
+    }
+
+
+    @IBAction func showChallenge7(_ sender: Any) {
+        let message = "Please check the playgroung in the code for this Exercise."
+        showMessage(challenge: "Challenge 7", message: message)
     }
 }
 
