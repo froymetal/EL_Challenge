@@ -134,6 +134,29 @@
                                     <segue destination="rPb-KH-ELS" kind="show" id="OXu-1i-Odk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrY-Pc-VfZ">
+                                <rect key="frame" x="68" y="558.5" width="278" height="32.5"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Challenge 6">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showChallenge6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SLr-32-xtU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -143,10 +166,12 @@
                             <constraint firstItem="jER-yi-8cE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="7mX-dv-ybb"/>
                             <constraint firstItem="KrH-Bw-wlp" firstAttribute="top" secondItem="5GB-EZ-k4G" secondAttribute="bottom" constant="20" id="8Pd-FA-k40"/>
                             <constraint firstItem="KrH-Bw-wlp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="C0O-Zf-EQv"/>
+                            <constraint firstItem="YrY-Pc-VfZ" firstAttribute="top" secondItem="Ojs-tO-OlW" secondAttribute="bottom" constant="20" id="F3Q-9q-pva"/>
                             <constraint firstItem="oRn-C6-ttu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="G7h-ZA-RqE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kIR-MZ-dYC" secondAttribute="trailing" constant="68" id="KPp-DU-aT8"/>
                             <constraint firstItem="Ojs-tO-OlW" firstAttribute="top" secondItem="kIR-MZ-dYC" secondAttribute="bottom" constant="20" id="N3z-nD-OSU"/>
                             <constraint firstItem="5GB-EZ-k4G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="SOn-hA-3ha"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YrY-Pc-VfZ" secondAttribute="trailing" constant="68" id="XhU-sL-gWa"/>
                             <constraint firstItem="kIR-MZ-dYC" firstAttribute="top" secondItem="KrH-Bw-wlp" secondAttribute="bottom" constant="20" id="Ynp-xt-53n"/>
                             <constraint firstItem="jER-yi-8cE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cFC-7a-gYX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ojs-tO-OlW" secondAttribute="trailing" constant="68" id="oeJ-aw-Pw9"/>
@@ -155,6 +180,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5GB-EZ-k4G" secondAttribute="trailing" constant="68" id="tun-cI-SmW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jER-yi-8cE" secondAttribute="trailing" constant="68" id="wHV-70-Dgx"/>
                             <constraint firstItem="Ojs-tO-OlW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="wzF-rk-Slv"/>
+                            <constraint firstItem="YrY-Pc-VfZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="yxm-4q-k1a"/>
                             <constraint firstItem="5GB-EZ-k4G" firstAttribute="top" secondItem="oRn-C6-ttu" secondAttribute="bottom" constant="20" id="ztH-nz-1gm"/>
                         </constraints>
                     </view>

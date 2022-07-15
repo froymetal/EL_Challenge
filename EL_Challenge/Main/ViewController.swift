@@ -27,5 +27,13 @@ class ViewController: UIViewController {
         alert.addAction(btn)
         self.present(alert, animated: true)
     }
+
+
+    @IBAction func showChallenge6(_ sender: Any) {
+        let rootVC = FirstViewController()
+        let navVC = UINavigationController(rootViewController: rootVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
+    }
 }
 
