@@ -157,10 +157,31 @@
                                     <action selector="showChallenge6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SLr-32-xtU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qan-Jm-0Kq">
+                                <rect key="frame" x="68" y="611" width="278" height="32.5"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Challenge 7">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="qan-Jm-0Kq" firstAttribute="top" secondItem="YrY-Pc-VfZ" secondAttribute="bottom" constant="20" id="6c4-ZA-Zmo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oRn-C6-ttu" secondAttribute="trailing" constant="68" id="6tF-o5-kxQ"/>
                             <constraint firstItem="kIR-MZ-dYC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="7QO-RX-sZw"/>
                             <constraint firstItem="jER-yi-8cE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="7mX-dv-ybb"/>
@@ -170,7 +191,9 @@
                             <constraint firstItem="oRn-C6-ttu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="G7h-ZA-RqE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kIR-MZ-dYC" secondAttribute="trailing" constant="68" id="KPp-DU-aT8"/>
                             <constraint firstItem="Ojs-tO-OlW" firstAttribute="top" secondItem="kIR-MZ-dYC" secondAttribute="bottom" constant="20" id="N3z-nD-OSU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qan-Jm-0Kq" secondAttribute="trailing" constant="68" id="Q2t-ph-n3v"/>
                             <constraint firstItem="5GB-EZ-k4G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="SOn-hA-3ha"/>
+                            <constraint firstItem="qan-Jm-0Kq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="TRh-aA-EyZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YrY-Pc-VfZ" secondAttribute="trailing" constant="68" id="XhU-sL-gWa"/>
                             <constraint firstItem="kIR-MZ-dYC" firstAttribute="top" secondItem="KrH-Bw-wlp" secondAttribute="bottom" constant="20" id="Ynp-xt-53n"/>
                             <constraint firstItem="jER-yi-8cE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cFC-7a-gYX"/>
