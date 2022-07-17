@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import SwiftUI
 
 class Challenge5ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func callSwiftUIScreen(_ sender: Any) {
+        let swiftUIViewController = UIHostingController(rootView: Challenge5SwiftUIView())
+        present(swiftUIViewController, animated: true)
     }
 }

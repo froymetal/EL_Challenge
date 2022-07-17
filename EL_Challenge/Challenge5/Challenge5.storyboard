@@ -46,6 +46,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="callSwiftUIScreen:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iBO-BC-GHK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
