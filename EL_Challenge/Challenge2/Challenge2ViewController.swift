@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Challenge2ViewController: UIViewController {
+final class Challenge2ViewController: UIViewController {
 
     @IBOutlet weak var colorSegmentControl: UISegmentedControl!
     @IBOutlet weak var userImage: UIImageView!
@@ -24,26 +24,24 @@ class Challenge2ViewController: UIViewController {
 
         switch itemSelected {
         case 0:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.red
-            userImage.tintColor = UIColor.red
+            updateColor(tintColor: .red)
         case 1:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.blue
-            userImage.tintColor = UIColor.blue
+            updateColor(tintColor: .blue)
         case 2:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.orange
-            userImage.tintColor = UIColor.orange
+            updateColor(tintColor: .orange)
         case 3:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.yellow
-            userImage.tintColor = UIColor.yellow
+            updateColor(tintColor: .purple)
         case 4:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.purple
-            userImage.tintColor = UIColor.purple
+            updateColor(tintColor: .purple)
         case 5:
-            colorSegmentControl.selectedSegmentTintColor = UIColor.gray
-            userImage.tintColor = UIColor.gray
+            updateColor(tintColor: .gray)
         default:
             print("Error")
         }
     }
-
+    
+    func updateColor (tintColor: UIColor) {
+        colorSegmentControl.selectedSegmentTintColor = tintColor
+        userImage.tintColor = tintColor
+    }
 }
